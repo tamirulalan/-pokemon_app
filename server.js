@@ -13,10 +13,10 @@ app.get('/', (req,res)=>{
   res.send('Welcome to the Pokemon App!')
 })
 //checking as my server readsmy database
-app.get('/pokemon', (req,res)=>{
-    res.send(pokemon)
-  })
-  
+// app.get('/pokemon', (req,res)=>{
+//     res.send(pokemon)
+//   })
+
   app.get(`/pokemon`, (req,res)=>{
     res.render(`Index`, {pokemon:pokemon})
 })
