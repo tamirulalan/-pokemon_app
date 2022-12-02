@@ -17,8 +17,8 @@ class Index extends React.Component {
             <ul>
              {pokemon.map((pokemon, idx) => (
               <li key={idx}>
-                <img src={pokemon.img} />
-                <br/>
+                {/* <img src={pokemon.img} />
+                <br/> */}
                 <a href={`/pokemon/${idx}`}>{cap(pokemon.name)}</a>
               </li>
             ))}
