@@ -13,9 +13,9 @@ app.get('/', (req,res)=>{
   res.send('Welcome to the Pokemon App!')
 })
 //checking as my server readsmy database
-// app.get('/pokemon', (req,res)=>{
-//     res.send(pokemon)
-//   })
+app.get('/pokemon', (req,res)=>{
+    res.send(pokemon)
+  })
 
   app.get(`/pokemon`, (req,res)=>{
     res.render(`Index`, {pokemon:pokemon})
@@ -24,6 +24,7 @@ app.get('/', (req,res)=>{
 app.get(`/pokemon/:id`, (req,res)=>{
   const {id} = req.params
   res.render(`Show`, {pokemon:pokemon[id]})
+  res.send(<a href="req.params.id">Do you want to see next pokemon?</a>)
 })
 
 
