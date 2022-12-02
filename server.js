@@ -24,7 +24,6 @@ app.get('/pokemon', (req,res)=>{
 app.get(`/pokemon/:id`, (req,res)=>{
   const {id} = req.params
   res.render(`Show`, {pokemon:pokemon[id]})
-  res.send(<a href="req.params.id">Do you want to see next pokemon?</a>)
 })
 
 
