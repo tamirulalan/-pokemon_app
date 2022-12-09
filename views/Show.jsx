@@ -13,7 +13,7 @@ class Show extends React.Component {
       <div style={styles}>
         <h1>Gotta Catch 'Em All</h1>
         <br/>
-        {/* <a href={`/pokemon/id-1`}>Do you want to see next pokemon?</a> */}
+        {/* {console.log(pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1))} */}
         <h2>{cap(pokemon.name)}</h2>
         <img src={pokemon.img} />
         <br/>
@@ -26,7 +26,7 @@ class Show extends React.Component {
 
 const styles = {
   color: `#ffffff`,
-  backgroundColor: `#000000`,
+  backgroundColor: `#517D87`,
 
   createBtn: {
     backgroundColor: "#fff",
