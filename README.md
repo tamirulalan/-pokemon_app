@@ -15,4 +15,4 @@
     image.png
 # creating update/post route
     ->Finally post route will be added in server.js
-    image.png
+    <img src="img\Screenshot 2022-12-09 155939.png" height="60" width="60" >
