@@ -8,11 +8,11 @@
 # steps to create
     ->creating pokemon data base in separate folder named as Module. the name of the file is pokemon.js
     ->creating the how we want to show the pokemon in deferent folder called views. Here the inline CSS was also set
-    image.png
+   
 # creating new pokemon
     ->We create new file called 'new' in Views folder and creat the the form by which we are going to add new pokemon. 
     
-    image.png
+ 
 # creating update/post route
     ->Finally post route will be added in server.js
-    <img src="img\Screenshot 2022-12-09 155939.png" height="60" width="60" >
+   
